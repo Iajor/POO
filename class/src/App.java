@@ -4,28 +4,28 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         
-        Pessoa p1 = new Pessoa();
+        Person p1 = new Person();
         System.out.println("Informe o nome");
-        p1.nome = input.nextLine();
+        p1.name = input.nextLine();
         System.out.println("Informe a idade");
-        p1.idade = input.nextInt();
+        p1.age = input.nextInt();
         // input.nextLine();
 
-        Pessoa p2 = new Pessoa();
+        Person p2 = new Person();
         System.out.println("Informe o nome");
-        p2.nome = input.nextLine();
+        p2.name = input.nextLine();
         System.out.println("Informe a idade");
-        p2.idade = input.nextInt();
+        p2.age = input.nextInt();
         // input.nextLine();
 
          
 
         input.close();
 
-        System.out.println(p1.nome);
-        System.out.println(p1.idade);
-        System.out.println(p2.nome);
-        System.out.println(p2.idade);
+        System.out.println(p1.name);
+        System.out.println(p1.age);
+        System.out.println(p2.name);
+        System.out.println(p2.age);
         
     }
 }
